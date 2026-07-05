@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "anu3dprint": {
+    "anu3dpri": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -64,10 +64,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "anu3dprint:build:production"
+              "buildTarget": "anu3dpri:build:production"
             },
             "development": {
-              "buildTarget": "anu3dprint:build:development"
+              "buildTarget": "anu3dpri:build:development"
             }
           },
           "defaultConfiguration": "development"
